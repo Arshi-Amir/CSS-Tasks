@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task 14</title>
+  <style>
+    /* Container for the bell icon */
+    .bell-container {
+      position: relative;
+      display: inline-block;
+      font-size: 32px;
+    }
+
+    /* Bell icon styling (using Unicode character for bell) */
+    .bell-icon {
+      color: #333;
+    }
+
+    /* Notification badge styling */
+    .notification-badge {
+      position: absolute;
+      top: -5px;
+      right: -5px;
+      background-color: red;
+      color: white;
+      font-size: 12px;
+      padding: 4px 8px;
+      border-radius: 50%;
+      min-width: 20px;
+      text-align: center;
+      line-height: 14px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Bell icon with notification badge -->
+  <div class="bell-container">
+    <span class="bell-icon">&#128276;</span> <!-- Unicode bell icon -->
+    <span class="notification-badge">3</span> <!-- Notification count -->
+  </div>
+
+</body>
+</html>

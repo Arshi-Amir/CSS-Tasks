@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task 12</title>
+  <style>
+    /* Button with transition */
+    .transition-button {
+      padding: 10px 20px;
+      background-color: #3498db;
+      color: white;
+      border: none;
+      font-size: 16px;
+      cursor: pointer;
+      border-radius: 8px;
+      transition: background-color 0.3s ease, transform 0.3s ease; /* Transition on hover */
+    }
+
+    /* Button hover effect */
+    .transition-button:hover {
+      background-color: #2980b9; 
+      transform: scale(1.1); /* Slightly enlarge the button */
+    }
+
+    /* Div with transition */
+    .transition-div {
+      width: 300px;
+      height: 200px;
+      background-color: #f4f4f9;
+      border: 2px solid #3498db;
+      border-radius: 15px;
+      padding: 20px;
+      text-align: center;
+      transition: background-color 0.3s ease, transform 0.3s ease; /* Transition on hover */
+    }
+
+    /* Div hover effect */
+    .transition-div:hover {
+      background-color: #ecf0f1; 
+      transform: rotate(5deg);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Button with transition effect -->
+  <button class="transition-button">Hover Over Me</button>
+
+  <!-- Div with transition effect -->
+  <div class="transition-div">
+    <h3>Hover Over Me</h3>
+    <p>This div has a transition effect when hovered.</p>
+  </div>
+
+</body>
+</html>

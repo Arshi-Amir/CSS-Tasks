@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task 7</title>
+  <style>
+    /* Define theme colors within a specific class */
+    .theme {
+      --primary-color: #3498db; /* Blue */
+      --secondary-color: #2ecc71; /* Green */
+      --accent-color: #f39c12; /* Yellow */
+      --background-color: #ecf0f1; /* Light gray */
+      --text-color: #2c3e50; /* Dark gray */
+      --button-hover-color: #2980b9; /* Darker blue for hover */
+    }
+
+    /* Apply styles within the 'theme' class */
+    .theme body {
+      background-color: var(--background-color);
+      font-family: Arial, sans-serif;
+      color: var(--text-color);
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Heading styling */
+    .theme h1 {
+      text-align: center;
+      color: var(--primary-color);
+      font-size: 3rem;
+      padding-top: 50px;
+    }
+
+    /* Paragraph styling */
+    .theme p {
+      text-align: center;
+      font-size: 1.2rem;
+      color: var(--text-color);
+      padding: 20px;
+    }
+
+    /* Button styling */
+    .theme .btn {
+      display: inline-block;
+      background-color: var(--primary-color);
+      color: white;
+      padding: 10px 20px;
+      font-size: 1.1rem;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      text-decoration: none;
+    }
+
+    /* Button hover effect */
+    .theme .btn:hover {
+      background-color: var(--button-hover-color);
+    }
+
+    /* Secondary button */
+    .theme .btn-secondary {
+      background-color: var(--secondary-color);
+    }
+
+    .theme .btn-secondary:hover {
+      background-color: var(--button-hover-color);
+    }
+
+  </style>
+</head>
+<body class="theme">
+
+  <h1>Welcome to the Themed Page!</h1>
+  <p>This is an example of using CSS variables without defining them in :root.</p>
+  <a href="#" class="btn">Primary Button</a>
+  <a href="#" class="btn btn-secondary">Secondary Button</a>
+
+</body>
+</html>
